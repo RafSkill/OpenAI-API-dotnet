@@ -1,4 +1,8 @@
-[![CC-0 Public Domain](https://licensebuttons.net/p/zero/1.0/88x31.png)][def]
+[![CC-0 Public Domain](https://licensebuttons.net/p/zero/1.0/88x31.png)][def]<github.com>
+File with heading
+smieszy cie to ??
+
+
 RunSmpleChsChatCompletionTestOpenAI-API-dotnet
 CC-BY-SA 4.0
 *To the extent possible under law, Roger Pincombe and all other contributors have waived all copyright and related or neighboring rights to OpenAI-API-dotnet. This work is published from: United States.*
