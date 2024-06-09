@@ -1,5 +1,7 @@
 [![CC-0 Public Domain](https://licensebuttons.net/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
 RunSmpleChsChatCompletionTest
+sNullOrWhiteSpace
+
 
 *To the extent possible under law, Roger Pincombe and all other contributors have waived all copyright and related or neighboring rights to OpenAI-API-dotnet. This work is published from: United States.*
 
