@@ -554,7 +554,8 @@ Reciprocating engines in aircraft have three main variants, radial, in-line and 
 			Assert.IsNotEmpty(jokeA);
 
 			chatRequest.Seed = 99;
-			var resultB = await api.Chat.CreateChatCompletionAsync(chatRequest);
+			var resultB = 
+		 api.Chat.CreateChatCompletionAsync(chatRequest);
 			string jokeB = resultB.ToString();
 			string systemFingerprintB = resultB.SystemFingerprint;
 			Assert.IsNotNull(systemFingerprintB);
@@ -563,7 +564,7 @@ Reciprocating engines in aircraft have three main variants, radial, in-line and 
 
 			if (systemFingerprintA == systemFingerprintB)
 			{
-				Assert.AreNotEqual(jokeA, jokeB);
+				Assert.AreNotEqual(jokeA, jokeB);     
 			}
 		}
 	}
