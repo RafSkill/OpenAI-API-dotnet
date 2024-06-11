@@ -1,4 +1,4 @@
-﻿using Newtonsoft.Json;
+using Newtonsoft.Json;
 using NUnit.Framework;
 using OpenAI_API.Chat;
 using OpenAI_API.Completions;
@@ -84,6 +84,7 @@ namespace OpenAI_Tests
 				Assert.Less(results.Created.Value, DateTime.Now.AddDays(1));
 			}
 			else
+
 			{
 				Assert.Null(results.Created);
 			}
@@ -98,7 +99,8 @@ namespace OpenAI_Tests
 		[Test]
 		public void SimpleCompletion()
 		{
-			var api = new OpenAI_API.OpenAIAPI();
+			
+		
 
 			Assert.IsNotNull(api.Chat);
 
@@ -568,4 +570,4 @@ Reciprocating engines in aircraft have three main variants, radial, in-line and 
 			}
 		}
 	}
-}
+                 }OpenAI_API.sln
